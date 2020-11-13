@@ -1,0 +1,356 @@
+*{
+    text-align: center;
+    color: #ADEFD1FF; 
+    background-color: #00203FFF;
+    font-family: Arial; 
+}
+
+.contact{ 
+    font-size: 12px 
+}
+
+.intro_pic{
+    border:solid #ADEFD1FF; 
+    border-radius: 50%;  
+}
+
+h1{ 
+    color: lightblue; 
+    text-decoration-line: underline; 
+}
+
+h2{ 
+    color: lightblue; 
+    text-decoration-line: underline; 
+}
+
+h3{ 
+    color: lightblue; 
+    text-decoration-line: underline; 
+}
+
+h4{ 
+    color: lightblue; 
+    text-decoration-line: underline; 
+}
+
+.nav{  
+    display: flex; 
+    justify-content: space-around; 
+    border: lightblue; 
+    border-style: solid; 
+    border-color: lightblue; 
+    background-color:lightblue;
+    padding: 10px ;
+    border: 1px solid lightblue;
+    margin: 5px; 
+    margin-left: -6px; 
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+
+#nav1{
+    color: black; 
+    background-color: lightblue; 
+    font-size: 30px; 
+    text-decoration-line: none;
+}
+
+#nav1:hover{ 
+    background-color: white;
+}
+
+#nav2{
+    color: black; 
+    background-color: lightblue; 
+    font-size: 30px; 
+    text-decoration-line: none; 
+}
+
+#nav2:hover{ 
+    background-color: white;
+}
+
+#nav3{
+    color: black; 
+    background-color: lightblue; 
+    font-size: 30px; 
+    text-decoration-line: none; 
+}
+
+#nav3:hover{ 
+    background-color: white;
+}
+
+.intro{ 
+    display: flex; 
+    justify-content: column;
+    margin-left: 400px; 
+}
+
+.python_i{
+    display: flex; 
+    justify-content: column;
+    margin-left: -200px; 
+    margin-right: 100px; 
+}
+
+.print_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+}
+
+.start_text{
+    display: flex; 
+    justify-content: center;  
+}
+
+.variables{
+    display: flex; 
+    justify-content: column;
+    margin-left: 400px; 
+}
+
+.python_v{
+    display: flex; 
+    justify-content: column;
+    margin-left: -400px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.variables_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: -55px; 
+}
+
+.functions{
+    display: flex; 
+    justify-content: column;
+    margin-left: 550px; 
+}
+
+.python_f{
+    display: flex; 
+    justify-content: column;
+    margin-left: -400px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.functions_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: -32px; 
+}
+
+.ifelse{
+    display: flex; 
+    justify-content: column;
+    margin-left: 650px; 
+}
+
+.python_if{
+    display: flex; 
+    justify-content: column;
+    margin-left: -400px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.ifelse_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: 33px; 
+}
+
+.lists{
+    display: flex; 
+    justify-content: column;
+    margin-left: 700px; 
+}
+
+.python_l{
+    display: flex; 
+    justify-content: column;
+    margin-left: -400px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.lists_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: 100px; 
+}
+
+.loops{
+    display: flex; 
+    justify-content: column;
+    margin-left: 700px; 
+}
+
+.python_loops{
+    display: flex; 
+    justify-content: column;
+    margin-left: -400px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.loops_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: 50px; 
+}
+
+.trello{
+    display: flex; 
+    justify-content: column;
+    margin-left: 700px; 
+}
+
+.planning_t{
+    display: flex; 
+    justify-content: column;
+    margin-left: -600px; 
+    margin-right: 100px; 
+    max-width: 50%;  
+}
+
+.trello_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: -20px; 
+}
+
+.flow_chart{
+    display: flex; 
+    justify-content: column;
+    margin-left: 700px; 
+}
+
+.planning_f{
+    display: flex; 
+    justify-content: column;
+    margin-left: -700px; 
+    margin-right: 100px; 
+    max-width: 60%;  
+}
+
+.flow_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: -40px; 
+}
+
+.ghoul_text_game{
+    display: flex; 
+    justify-content: column;
+    margin-left: 700px; 
+}
+
+.game_ghoul{
+    display: flex; 
+    justify-content: column;
+    margin-left: -700px; 
+    margin-right: 100px; 
+    max-width: 60%;  
+}
+
+.ghoul_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: -40px; 
+}
+
+.html{
+    display: flex; 
+    justify-content: column;
+    margin-left: 800px; 
+}
+
+.html_img{
+    display: flex; 
+    justify-content: column;
+    margin-left: -700px; 
+    margin-right: 100px; 
+    max-width: 60%;  
+}
+
+.html_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: 40px; 
+}
+
+.css{
+    display: flex; 
+    justify-content: column;
+    margin-left: 900px; 
+}
+
+.css_img{
+    display: flex; 
+    justify-content: column;
+    margin-left: -700px; 
+    margin-right: 100px; 
+    max-width: 60%;  
+}
+
+.css_text{
+    display: flex; 
+    justify-content: column; 
+    margin-right: 100px; 
+    text-align: left; 
+    margin-left: 200px; 
+}
+
+.my_story{ 
+    display: flex; 
+    justify-content: column;
+    margin-right: 300px; 
+    text-align: left; 
+    margin-left: 300px; 
+
+}
+
+.interests{ 
+    display: flex; 
+    justify-content: column;
+    margin-right: 300px; 
+    text-align: left; 
+    margin-left: 300px; 
+
+}
+
+.values{ 
+    display: flex; 
+    justify-content: column;
+    margin-right: 300px; 
+    text-align: left; 
+    margin-left: 300px; 
+
+}
